@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Load dependency for lambda functions
-python3 -m pip install --target monitoring-py/ -r monitoring-py/requirements.txt 
-
 # create the virtual environment
 python3 -m venv .env
 # download requirements
 .env/bin/python -m pip install -r requirements.txt
+
+# Load dependency for lambda functions
+.env/bin/python -m pip install --target monitoring-py/ -r monitoring-py/requirements.txt 
 
 # create the key pair
 region_default="us-west-2"

@@ -28,11 +28,7 @@ The following tools are required to deploy this CDK Monitoring tool for Amazon E
 AWS CDK - https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html  
 AWS CLI - https://aws.amazon.com/cli/  
 Git -  https://git-scm.com/downloads  
-nodejs - There are issue with [version 15.6 and greater](https://github.com/aws/aws-cdk/issues/12536), so better install 14.x as below:
-```bash
-curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
-yum -y install nodejs
-```
+nodejs - https://nodejs.org/en
 python (3.6 or later) - https://www.python.org/downloads/  
 
 ### Create and deploy CDK Monitoring tool
